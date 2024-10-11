@@ -1,8 +1,8 @@
 const DOMSelectors = {
-  form: document.getElementById("data-form"),
-  nameInput: document.getElementById("name"),
-  emailInput: document.getElementById("email"),
-  dataList: document.getElementById("data-list"),
+  form: document.querySelector("#data-form"),
+  nameInput: document.querySelector("#name"),
+  emailInput: document.querySelector("#email"),
+  dataList: document.querySelector("#data-list"),
 };
 
 function createDataObject(event) {

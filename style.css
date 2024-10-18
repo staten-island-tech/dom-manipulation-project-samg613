@@ -1,18 +1,53 @@
-.item {
-    margin: 10px 0;
-    display: flex;
-    justify-content: space-between;
-}
-.remove-btn {
-    cursor: pointer;
-    color: red;
 
-    }
 
 h1{
     text-align: center;
 }
 
-.container {
-    text-align: center;
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+input {
+    margin: 10px 0; 
+    padding: 10px; 
+    width: 200px; 
+
+button {
+    padding: 10px 15px; 
+    cursor: pointer; 
+}
+
+#data-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.item {
+    margin: 5px 0; 
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    width: 250px; 
+    display: flex;
+    justify-content: space-between; 
+}
+
+.remove-btn {
+    cursor: pointer;
+    color: red;
+
+    }
